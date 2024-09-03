@@ -113,7 +113,7 @@ export default function TheUltimateGuideToModernResponsiveWebDesignConcepts() {
                                 <hr className="h-px my-8 bg-gray-500 border-0 dark:bg-light" />
                                 <div className="mt-8 text-left text-gray-500 dark:text-white">
                                     <p className="text-sm dark:text-white">Article by <Link href="http://www.genehowell.com/" className="hover:underline hover:underline-offset-2 text-slate-800 dark:text-white">Gene Howell</Link></p>
-                                    <p className="text-sm dark:text-white">Orignially published on <Link href="https://www.linkedin.com/pulse/ultimate-guide-modern-responsive-web-design-concepts-gene-howell?trk=public_post_feed-article-content" className="hover:underline hover:underline-offset-2 text-slate-800 dark:text-white" >LinkedIn</Link> - February 24th, 2023</p>
+                                    <p className="text-sm dark:text-white xs:pb-4">Orignially published on <Link href="https://www.linkedin.com/pulse/ultimate-guide-modern-responsive-web-design-concepts-gene-howell?trk=public_post_feed-article-content" className="hover:underline hover:underline-offset-2 text-slate-800 dark:text-white" >LinkedIn</Link> - February 24th, 2023</p>
                                 </div>
                                 {/* Author Card */}
 
