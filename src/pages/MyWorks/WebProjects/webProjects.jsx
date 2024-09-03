@@ -54,7 +54,7 @@ const Tags = ({ text }) => {
 const FeaturedProject = ({ type, title, tags, summary, img, link, github }) => {
   return (
     <article className="relative flex w-full items-center justify-between rounded-3xl rounded-br-2xl border border-solid border-dark bg-light p-12 shadow-2xl dark:border-light dark:bg-dark lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4 ">
-      <div className="absolute top-0 -right-3 -z-10 h-[103%] w-[101%] rounded-[2.5rem] rounded-br-3xl bg-dark dark:bg-light  xs:-right-2 xs:h-[102%] xs:w-[100%] xs:rounded-[1.5rem] xs:mb-3" />
+      <div className="absolute top-0 -right-3 -z-10 h-[103%] w-[101%] rounded-[2.5rem] rounded-br-3xl bg-dark dark:bg-light  xs:-right-2 xs:h-[102%] xs:w-[100%] xs:rounded-[1.5rem]" />
       <Link
         href={link}
         target="_blank"
@@ -188,7 +188,7 @@ const webProjects = () => {
             className="inline-block text-dark dark:text-light font-bold w-full capitalize mb-16 md:mb-6 md:!text-3xl !text-6xl !leading-tight lg:!text-6xl sm:!mb-8 sm:!text-3xl xs:!mb-5 xs:!text-4xl xl:text-6xl"
           />
 
-          <div className="w-full grid grid-cols-12 center gap-24 xs:gap-0 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+          <div className="w-full grid grid-cols-12 center gap-24 xs:gap-0 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xs:mb-2">
             <div className="col-span-12 sm:col-span-12 md:gap-0">
               <FeaturedProject
                 title="Stephanie Pettis and RIO project"
