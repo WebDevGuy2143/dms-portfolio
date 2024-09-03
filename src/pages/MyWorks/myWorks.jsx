@@ -85,7 +85,7 @@ const myWorks = () => {
                 alt="Audio Production Playlist"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 sm:col-span-12 xs:text-center">
               <Project
                 title="Software Programming"
                 img={project5}
