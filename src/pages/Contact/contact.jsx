@@ -30,7 +30,7 @@ const contact = () => {
                     </div>
                     <div className="flex items-center justify-between w-full lg:flex-col">
                         {/* Contact Form Section */}
-                        <div className="w-full lg:w-1/2 flex flex-col items-center px-20 py-0">
+                        <div className="w-full lg:w-1/2 flex flex-col items-center px-20 py-0 xs:w-full">
 
                             <div className="text-left">
                                 <h1 className="text-2xl mb-3">Contact Gene Howell - Your Digital Media Specialist</h1>
