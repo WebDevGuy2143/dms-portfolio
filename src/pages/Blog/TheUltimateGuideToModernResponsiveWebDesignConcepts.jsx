@@ -33,7 +33,7 @@ export default function TheUltimateGuideToModernResponsiveWebDesignConcepts() {
                                 suppressHydrationWarning
                             />
 
-                            <h1 className="text-center mt-16 mb-16 text-5xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">The Ultimate Guide to Modern Responsive Web Design Concepts</h1>
+                            <h1 className="text-center mt-16 mb-16 text-5xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl xs:text-4xl dark:text-white">The Ultimate Guide to Modern Responsive Web Design Concepts</h1>
                             <div className="text-left ">
                                 <p className="text-xl pb-5 dark:text-white"><span className="text-xl pb-5 font-bold italic">Hey there!</span> So, let&apos;s talk about something exciting today!</p>
                                 <p className="text-xl pb-5 dark:text-white">Let&apos;s talk about <span className="inline font-bold text-xl pb-5 italic">responsive web design!</span></p>
