@@ -41,7 +41,7 @@ const contact = () => {
                         </div>
 
                         {/* Contact Information Section */}
-                        <div className="w-full lg:w-1/2 relative dark:z-10">
+                        <div className="w-full lg:w-1/2 relative dark:z-10 xs:w-full xs:px-2">
                             <div className="my-4">
                                 <form action="#" method="post" className="space-y-4">
                                     <div>
