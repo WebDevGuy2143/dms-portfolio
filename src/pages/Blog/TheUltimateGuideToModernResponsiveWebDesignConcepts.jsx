@@ -121,7 +121,7 @@ export default function TheUltimateGuideToModernResponsiveWebDesignConcepts() {
                                     <div className="border border-gray-500 dark:border items-center w-full max-w-xl md:max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 dark:border-light xs:w-full xs:px-2">
                                         <div className="flex justify-end px-4 pt-4">
                                         </div>
-                                        <div className="flex flex-col items-center pb-10 xs:w-full xs:px-2">
+                                        <div className="flex flex-col items-center pb-10 xs:px-2">
                                             <Image className="w-24 h-24 mb-3 rounded-full border border-gray-500 dark:border dark:border-stone-500" src={profilePic} alt="Gene Howell" suppressHydrationWarning />
                                             <h5 className="mb-1 text-xl font-bold text-gray-900 dark:text-gray-500">About the Author</h5>
                                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Gene Howell</h5>
