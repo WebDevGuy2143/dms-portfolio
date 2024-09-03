@@ -117,7 +117,7 @@ export default function TheUltimateGuideToModernResponsiveWebDesignConcepts() {
                                 </div>
                                 {/* Author Card */}
 
-                                <div className="m-8 flex items-center justify-center tracking-tight xs:px-2">
+                                <div className="m-8 flex items-center justify-center tracking-tight xs:w-full xs:px-2">
                                     <div className="border border-gray-500 dark:border items-center w-full max-w-xl md:max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 dark:border-light xs:w-full xs:px-2">
                                         <div className="flex justify-end px-4 pt-4">
                                         </div>
@@ -127,9 +127,9 @@ export default function TheUltimateGuideToModernResponsiveWebDesignConcepts() {
                                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Gene Howell</h5>
                                             <span className="pb-2 text-sm text-gray-500 dark:text-gray-400">Digital Media Specialist</span>
                                             <span className="text-lg pr-10 pl-10 text-gray-500 xs:text-base dark:text-gray-400">I am an Atlanta, GA native, now based in Panama City, FL, since 2016. I am also passionate about all things digital media, music, writing, and computers. Ultimately, I plan to teach after completing my Bachelor&#39;s and Master&#39;s degrees. Outside of my interests and studies, you&#39;ll find me at home, at the gym, or out enjoying life with family and friends.</span>
-                                            <div className="flex mt-4 md:mt-6">
+                                            {/* <div className="flex mt-4 md:mt-6">
 
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
