@@ -20,7 +20,7 @@ const Details = ({ type, time, place, info }) => {
 
 const Education = () => {
   return (
-    <div className="my-64">
+    <div className="my-64 xs:!mt-14 xs:!mb-14">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
         Education
       </h2>
