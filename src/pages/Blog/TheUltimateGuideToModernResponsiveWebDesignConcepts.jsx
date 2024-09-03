@@ -117,7 +117,7 @@ export default function TheUltimateGuideToModernResponsiveWebDesignConcepts() {
                                 </div>
                                 {/* Author Card */}
 
-                                <div className="m-8 flex items-center justify-center xs:w-full xs:px-2">
+                                <div className="m-8 flex items-center justify-center xs:px-2">
                                     <div className="border border-gray-500 dark:border items-center w-full max-w-xl md:max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 dark:border-light">
                                         <div className="flex justify-end px-4 pt-4">
                                         </div>
