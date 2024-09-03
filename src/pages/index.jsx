@@ -54,7 +54,7 @@ export default function Home() {
                 &quot;deep-seated&quot; passion for programming, graphic design,
                 video production, and radio.
               </p>
-              <p className="my-4 text-base font-medium mb-16">
+              <p className="my-4 text-base font-medium mb-16 md:text-sm sm:text-xs">
                 Today, I bring together my diverse expertise to create
                 captivating digital experiences that seamlessly integrate the
                 worlds of web development, programming, graphic design, video
