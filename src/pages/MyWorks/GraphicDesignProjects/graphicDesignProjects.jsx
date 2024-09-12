@@ -180,8 +180,8 @@ const graphicDesignProjects = () => {
             className="inline-block text-dark dark:text-light font-bold w-full capitalize mb-16 md:mb-6 md:!text-3xl !text-6xl !leading-tight lg:!text-6xl sm:!mb-8 sm:!text-3xl xs:mt-4 xl:text-6xl xs:!text-xl xs:mb-4"
           />
 
-          <div className="w-full grid grid-cols-12 center gap-24 gap-y-32 xl:gap-x-16 lg:w-full xs:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12 md:col-span-9">
+          <div className="w-full grid grid-cols-12 center gap-24 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-12 md:col-span-9 xs:col-span-12">
               <FeaturedProject
                 title="Campground Icons Project"
                 img={project2}
