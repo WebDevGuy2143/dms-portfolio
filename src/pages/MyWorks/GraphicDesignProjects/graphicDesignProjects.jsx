@@ -192,7 +192,7 @@ const graphicDesignProjects = () => {
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 md:col-span-9">
+            <div className="col-span-6 md:col-span-9 xs:col-span-12 xs:mr-2">
               <Project
                 title="Boilerplate Project"
                 img={project1}
@@ -203,7 +203,7 @@ const graphicDesignProjects = () => {
                 type="Project"
               />
             </div>
-            <div className="col-span-6 md:col-span-9">
+            <div className="col-span-6 md:col-span-9 xs:col-span-12 xs:mr-2">
               <Project
                 title="Boilerplate Project"
                 img={project1}
@@ -214,7 +214,7 @@ const graphicDesignProjects = () => {
                 type="Project"
               />
             </div>
-            <div className="col-span-12 md:col-span-9">
+            <div className="col-span-12 md:col-span-9 xs:col-span-12 xs:mr-2">
               <FeaturedProject
                 title="Boilerplate Featured project"
                 img={project1}
@@ -225,7 +225,7 @@ const graphicDesignProjects = () => {
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 md:col-span-9">
+            <div className="col-span-6 md:col-span-9 xs:col-span-12 xs:mr-2">
               <Project
                 title="Boilerplate Project"
                 img={project1}
@@ -236,7 +236,7 @@ const graphicDesignProjects = () => {
                 type="Project"
               />
             </div>
-            <div className="col-span-6 md:col-span-9">
+            <div className="col-span-6 md:col-span-9 xs:col-span-12 xs:mr-2">
               <Project
                 title="Boilerplate Project"
                 img={project1}
