@@ -181,7 +181,7 @@ const graphicDesignProjects = () => {
           />
 
           <div className="w-full grid grid-cols-12 center gap-24 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12 md:col-span-9 xs:col-span-12">
+            <div className="col-span-12 md:col-span-9 xs:col-span-12 xs:mr-2">
               <FeaturedProject
                 title="Campground Icons Project"
                 img={project2}
