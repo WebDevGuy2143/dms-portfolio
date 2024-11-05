@@ -225,7 +225,7 @@ const graphicDesignProjects = () => {
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 md:col-span-9 xs:col-span-12 xs:mr-2">
+{/*             <div className="col-span-6 md:col-span-9 xs:col-span-12 xs:mr-2">
               <Project
                 title="Boilerplate"
                 img={project1}
@@ -246,7 +246,7 @@ const graphicDesignProjects = () => {
                 github="/"
                 type="Project"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
