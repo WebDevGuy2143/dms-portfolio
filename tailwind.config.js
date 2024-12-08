@@ -15,8 +15,8 @@ module.exports = {
       },
       colors: {
         dark: "#303030",
-        light: "bg-purple-300",
-        moreLight: "slate-gray-500",
+        light: "rgb(255 251 235)",
+        moreLight: "bg-purple-100",
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217},
       },
