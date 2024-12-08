@@ -8,7 +8,7 @@ const Skills = () => {
           Skills
         </h2>
         <div className="w-[50%] items-center mx-auto relative flex flex-wrap sm:justify-center space-x-3 space-y-3">
-          <span className="bg-blue-100 text-blue-800 text-xs text-center font-medium mt-2 px-2 py-3 rounded-full dark:bg-blue-900 dark:text-blue-300 self-center">
+          <span className="bg-blue-100 border-color-blue-800 text-blue-800 text-xs text-center font-medium mt-2 px-2 py-3 rounded-full dark:bg-blue-900 dark:text-blue-300 self-center">
             UI Design
           </span>
           <span className="bg-blue-100 text-blue-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-red-900 dark:text-red-300">
