@@ -7,7 +7,7 @@ const Skills = () => {
         <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
           Skills
         </h2>
-        <div className="w-[55%] mx-auto relative flex flex-wrap justify-center space-x-3 space-y-3">
+        <div className="w-[50%] mx-auto relative flex flex-wrap justify-center space-x-3 space-y-3">
           <span className="bg-blue-200 border border-blue-700 text-blue-800 text-xs text-center font-medium mt-2 px-2 py-3 rounded-full dark:bg-blue-900 dark:text-blue-300 self-center">
             UI Design
           </span>
