@@ -14,8 +14,8 @@ module.exports = {
         nunito: [`var(--font-nunito)`, ...fontFamily.sans],
       },
       colors: {
-        dark: "#141925",
-        light: "rgb(255 251 235)",
+        dark: "#303030",
+        light: "bg-purple-200",
         moreLight: "slate-gray-500",
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217},
