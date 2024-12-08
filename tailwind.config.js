@@ -15,9 +15,9 @@ module.exports = {
       },
       colors: {
         dark: "#303030",
-        light: "bg-purple-800",
+        light: "rgb(243,232,255)",
         moreLight: "slate-gray-500",
-        primary: "bg-purple-800", // 240,86,199
+        primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217},
       },
       keyframes: {
