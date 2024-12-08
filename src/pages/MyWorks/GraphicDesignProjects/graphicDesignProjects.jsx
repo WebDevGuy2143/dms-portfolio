@@ -188,7 +188,6 @@ const graphicDesignProjects = () => {
                 tags={["Illustrator", "Photoshop"]}
                 summary="Cooper’s Lake Campground is a family-oriented camping destination that accommodates individual campers and hosts large-scale events. The campground seeks a cohesive, scalable icon system for use across various media including signage, printed materials, and their website."
                 link="/MyWorks/GraphicDesignProjects/campGoundIconsProject"
-                // github="/"
                 type="Featured Project"
               />
             </div>
