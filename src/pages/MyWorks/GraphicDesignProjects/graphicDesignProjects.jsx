@@ -183,10 +183,10 @@ const graphicDesignProjects = () => {
           <div className="w-full grid grid-cols-12 center gap-24 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 md:col-span-9 xs:col-span-12 xs:mr-2">
               <FeaturedProject
-                title="Campground Icons"
+                title="Cooper's Campground Icons Project"
                 img={project2}
                 tags={["Illustrator", "Photoshop"]}
-                summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
+                summary="Cooper’s Lake Campground is a family-oriented camping destination that accommodates individual campers and hosts large-scale events. The campground seeks a cohesive, scalable icon system for use across various media including signage, printed materials, and their website."
                 link="/MyWorks/GraphicDesignProjects/campGoundIconsProject"
                 github="/"
                 type="Featured Project"
