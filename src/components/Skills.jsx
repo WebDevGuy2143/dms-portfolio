@@ -11,10 +11,10 @@ const Skills = () => {
           <span className="bg-blue-100 border border-blue-700 text-blue-800 text-xs text-center font-medium mt-2 px-2 py-3 rounded-full dark:bg-blue-900 dark:text-blue-300 self-center">
             UI Design
           </span>
-          <span className="bg-blue-100 border border-blue-700 text-blue-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-red-900 dark:text-red-300">
+          <span className="bg-blue-200 border border-blue-700 text-blue-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-red-900 dark:text-red-300">
             Graphic Design
           </span>
-          <span className="bg-blue-100 border border-blue-700 text-green-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-green-900 dark:text-green-300">
+          <span className="bg-blue-200 border border-blue-700 text-green-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-green-900 dark:text-green-300">
             Digital Storytelling
           </span>
           <span className="bg-yellow-100 text-yellow-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-yellow-900 dark:text-yellow-300">
@@ -29,7 +29,7 @@ const Skills = () => {
           <span className="bg-pink-100 text-pink-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-pink-900 dark:text-pink-300">
             Video Editing
           </span>
-          <span className="bg-blue-100 border border-blue-700 text-blue-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-blue-900 dark:text-blue-300 self-center">
+          <span className="bg-blue-200 border border-blue-700 text-blue-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-blue-900 dark:text-blue-300 self-center">
             Photo Editing
           </span>
           <span className="bg-gray-100 text-gray-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-gray-700 dark:text-gray-300 self-center">
