@@ -27,7 +27,7 @@ const campgroundIconsProject = () => {
                     <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
                         <div className="col-span-12 flex flex-col items-start justify-start xl:col-span-4 md:!order-2 md:!col-span-8">
                             <div className="container py-8">
-                                <h1 className="font-bold text-5xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-164">Camp Icons Project Timeline</h1>
+                                <h1 className="font-bold text-5xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-164">Cooper's Campground Icons Project Timeline</h1>
                                 <p className="sm:text-sm text-xl font-medium pb-3">Client Brief copy goes here...</p>
                             </div>
                         </div>
