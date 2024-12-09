@@ -28,7 +28,7 @@ const about = () => {
           />
           <div className="grid w-full grid-cols-12 gap-16 sm:gap-8">
             <div className="col-span-6 flex flex-col items-start justify-start xl:col-span-4 md:!order-2 md:!col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light">
+              <h2 className="mb-4 text-3xl font-bold uppercase text-dark/75 dark:text-light">
                 My Bio
               </h2>
               <p className="text-xl font-medium pb-3">
@@ -43,7 +43,7 @@ const about = () => {
               <p className="text-xl font-medium pb-3">
               Embracing the dynamic nature of the industry, I continuously update my skills to create cutting-edge, standards-compliant websites.
               </p>
-              <p className=" text-xlfont-medium">
+              <p className="text-xl font-medium">
               To connect, please reach me at genehowellwebguy@gmail.com or 404-310-4661.
               </p>
 
