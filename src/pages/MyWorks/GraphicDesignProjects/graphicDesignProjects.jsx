@@ -2,7 +2,6 @@ import React from "react"
 
 import AnimatedText from "@/components/AnimatedText"
 import Layout from "@/components/Layout"
-import { GithubIcon } from "@/components/icons"
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
@@ -23,20 +22,20 @@ const Tags = ({ text }) => {
     for (const tag of lowerCaseTags) {
       switch (tag) {
         case "illustrator":
-          return "bg-amber-600 text-light"
+          return "bg-amber-600 text-light sm:text-sm text-xl"
         case "photoshop":
-          return "bg-blue-600 text-light"
+          return "bg-blue-600 text-light sm:text-sm text-xl"
         case "indesign":
-          return "bg-purple-600 text-light"
+          return "bg-purple-600 text-light sm:text-sm text-xl"
         default:
-          return "bg-blue-100 text-blue-800"
+          return "bg-blue-100 text-blue-800 sm:text-sm text-xl"
       }
     }
   }
 
   return (
     <span
-      className={`text-xs text-center font-medium mt-2 px-2 py-3 rounded-full self-center ${getTagClass()}`}
+      className={`sm:text-sm text-xl text-center font-medium mt-2 px-2 py-3 rounded-full self-center ${getTagClass()}`}
     >
       {tags.join(", ")}
     </span>
@@ -60,15 +59,15 @@ const FeaturedProject = ({ type, title, tags, summary, img, link }) => {
         />
       </Link>
       <div className="flex w-1/2 flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
-        <span className="text-xl font-medium text-primary dark:text-primaryDark xs:text-base">
+        <span className="text-xl sm:text-sm text-xl text-primary dark:text-primaryDark xs:text-base">
           {type}
         </span>
         <Link
           href={link}
           target="_blank"
-          className="underline-offset-2 hover:underline"
+          className="underline-offset-2 hover:underline sm:text-sm text-xl"
         >
-          <h2 className="my-2 w-full text-left text-4xl font-bold lg:text-3xl xs:text-2xl">
+          <h2 className="my-2 w-full text-left sm:text-sm text-xl font-bold lg:text-3xl xs:text-2xl">
             {title}
           </h2>
         </Link>
@@ -86,7 +85,7 @@ const FeaturedProject = ({ type, title, tags, summary, img, link }) => {
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark  sm:px-4 sm:text-base "
+            className="ml-4 rounded-lg bg-dark p-2 px-6 sm:text-sm text-xl font-semibold text-light dark:bg-light dark:text-dark  sm:px-4 sm:text-base "
           >
             View My Project
           </Link>
@@ -103,24 +102,24 @@ const Project = ({ title, summary, tags, type, img, link }) => {
       <Link
         href={link}
         target="_blank"
-        className="w-full cursor-pointer overflow-hidden rounded-lg"
+        className="w-full cursor-pointer overflow-hidden rounded-lg sm:text-sm text-xl"
       >
         <Image
           src={img}
           alt={title}
-          className="w-full h-auto dark:text-light hover:scale-125 hover:transition-all hover:ease-in-out"
+          className="w-full h-auto sm:text-sm text-xl dark:text-light hover:scale-125 hover:transition-all hover:ease-in-out"
         />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">
-        <span className="text-primary outline-color: #000 font-medium text-xl dark:text-primaryDark">
+        <span className="text-primary outline-color: #000 font-medium sm:text-sm text-xl dark:text-primaryDark">
           {type}
         </span>
         <Link
           href={link}
           target="_blank"
-          className="hover:underline underline-offset-2"
+          className="hover:underline underline-offset-2 sm:text-sm text-xl"
         >
-          <h2 className="my-2 w-full text-left text-3xl font-bold dark:text-light">
+          <h2 className="my-2 w-full text-left sm:text-sm text-xl font-bold dark:text-light">
             {title}
           </h2>
         </Link>
@@ -129,14 +128,14 @@ const Project = ({ title, summary, tags, type, img, link }) => {
             <Tags key={index} text={tagItem} />
           ))}
         </div>
-        <p className="my-2 font-medium text-dark hover:transition-none dark:text-light">
+        <p className="my-2 sm:text-sm text-xl text-dark hover:transition-none dark:text-light">
           {summary}
         </p>
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
             href={link}
             target="_blank"
-            className=" text-lg font-semibold hover:underline underline-offset-2 hover:scale-110 transition-all dark:text-light"
+            className="sm:text-sm text-xl font-semibold hover:underline underline-offset-2 hover:scale-110 transition-all dark:text-light"
           >
             View My Project
           </Link>
