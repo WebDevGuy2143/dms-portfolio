@@ -47,14 +47,14 @@ export default function Home() {
                 text="Hello there! I'm Gene, your personal Digital Media Specialist"
                 className="mb-5 !text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl md:pt-0 sm:!text-3xl"
               />
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+              <p className="my-4 sm:text-sm text-xl font-medium md:text-sm sm:text-xs">
                 From the very beginning, my journey in the realm of technology
                 began with web development. However, as I progressed through
                 college, my horizons expanded, and I discovered my
                 &quot;deep-seated&quot; passion for programming, graphic design,
                 video production, and radio.
               </p>
-              <p className="my-4 text-base font-medium mb-16 md:text-sm sm:text-xs">
+              <p className="my-4 sm:text-sm text-xl font-medium mb-16 md:text-sm sm:text-xs">
                 Today, I bring together my diverse expertise to create
                 captivating digital experiences that seamlessly integrate the
                 worlds of web development, programming, graphic design, video
@@ -65,7 +65,7 @@ export default function Home() {
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
                   href="/Resume.pdf"
-                  className="flex items-center self-start mt-2 bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"
+                  className="flex items-center self-start mt-2 bg-dark text-light p-2.5 px-6 rounded-lg sm:text-sm text-xl font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download={true}
                 >
                   Resume
@@ -73,7 +73,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/Contact/contact"
-                  className="contactAnimate ml-4 text-lg font-medium capitalize text-slate-900 underline hover:underline-offset-4 hover:animate-bounce hover:ease-out dark:text-light mt-1 md:text-base"
+                  className="contactAnimate ml-4 sm:text-sm text-xl font-medium capitalize text-slate-900 underline hover:underline-offset-4 hover:animate-bounce hover:ease-out dark:text-light mt-1 md:text-base"
                 >
                   Contact Me
                 </Link>
