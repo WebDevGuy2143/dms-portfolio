@@ -26,8 +26,8 @@ const about = () => {
             text="Don’t wait for inspiration. It comes while working. – Henri Matisse"
             className="mb-16 !text-6xl !text-center xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl xs:!text-xl xs:mb-4"
           />
-          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-            <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:!order-2 md:!col-span-8">
+          <div className="grid w-full grid-cols-12 gap-16 sm:gap-8">
+            <div className="col-span-6 flex flex-col items-start justify-start xl:col-span-4 md:!order-2 md:!col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light">
                 My Bio
               </h2>
@@ -48,7 +48,7 @@ const about = () => {
               </p>
 
             </div>
-            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:!order-1 md:!col-span-8">
+            <div className="col-span-6 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:!order-1 md:!col-span-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
