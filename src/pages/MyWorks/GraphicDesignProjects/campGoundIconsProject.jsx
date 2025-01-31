@@ -20,7 +20,7 @@ const campgroundIconsProject = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="&ldquo;Don't wait for inspiration. It comes while working.&quot; &mdash; Henri Matisse&rdquo;"
+            text="&ldquo;Don't wait for inspiration. It comes while working.&rdquo; &mdash; Henri Matisse"
             className="mb-16 !text-6xl !text-center xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
