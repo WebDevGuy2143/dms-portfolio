@@ -59,7 +59,7 @@ const FeaturedProject = ({ type, title, tags, summary, img, link }) => {
         />
       </Link>
       <div className="flex w-1/2 flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
-        <span className="text-xl sm:text-sm text-xl text-primary dark:text-primaryDark xs:text-base">
+        <span className="text-xl sm:text-sm text-primary dark:text-primaryDark xs:text-base">
           {type}
         </span>
         <Link
@@ -81,11 +81,10 @@ const FeaturedProject = ({ type, title, tags, summary, img, link }) => {
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-dark p-2 px-6 sm:text-sm text-xl font-semibold text-light dark:bg-light dark:text-dark  sm:px-4 sm:text-base "
+            className="ml-4 rounded-lg bg-dark p-2 px-6 sm:text-sm text-xl font-semibold text-light dark:bg-light dark:text-dark  sm:px-4"
           >
             View My Project
           </Link>
@@ -207,7 +206,7 @@ const graphicDesignProjects = () => {
                 type="Featured Project"
               />
             </div>
-{/*             <div className="col-span-6 md:col-span-9 xs:col-span-12 xs:mr-2">
+            {/*             <div className="col-span-6 md:col-span-9 xs:col-span-12 xs:mr-2">
               <Project
                 title="Boilerplate"
                 img={project1}

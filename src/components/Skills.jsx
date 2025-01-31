@@ -23,7 +23,7 @@ const Skills = () => {
           <span className="bg-indigo-200 border border-indigo-700 text-indigo-800 sm:text-sm text-xl text-center font-medium px-2 py-3 rounded-full dark:bg-indigo-900 dark:text-indigo-300">
             Branding
           </span>
-          <span className="bg-purple-200 border border-purple-700 text-purple-800 text-xs text-center font-medium px-2 py-3 rounded-full dark:bg-purple-900 dark:text-purple-300">
+          <span className="bg-purple-200 border border-purple-700 text-purple-800 sm:text-sm text-xl text-center font-medium px-2 py-3 rounded-full dark:bg-purple-900 dark:text-purple-300">
             Social Media Management
           </span>
           <span className="bg-pink-200 border border-pink-700 text-pink-800 sm:text-sm text-xl text-center font-medium px-2 py-3 rounded-full dark:bg-pink-900 dark:text-pink-300">
