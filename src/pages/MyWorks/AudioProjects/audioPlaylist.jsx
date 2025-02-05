@@ -8,7 +8,7 @@ const audioPlaylist = () => {
   return (
     <>
       <Head>
-        <title>Gene&apos;s Portfolio | About Page</title>
+        <title>Gene&apos;s Portfolio | Audio Playlist Page</title>
         <meta
           name="description"
           content="Gene Howell - Digital media specialist skilled in video, graphics, web development, and radio production. Transforming ideas into captivating digital experiences for maximum impact. Let's create something extraordinary!"
