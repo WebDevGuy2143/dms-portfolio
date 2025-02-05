@@ -81,7 +81,7 @@ const myWorks = () => {
               <Project
                 title="Audio Production"
                 img={project4}
-                link="/MyWorks/AudioProjects/audioplaylist"
+                link="/MyWorks/AudioProductionProjects/audioPlaylist"
                 alt="Audio Production Playlist"
               />
             </div>
