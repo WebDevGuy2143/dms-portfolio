@@ -1,12 +1,7 @@
 import AnimatedText from "@/components/AnimatedText"
 import Layout from "@/components/Layout"
 import Head from "next/head"
-import Image from "next/image"
 import React from "react"
-import profilePic from "../../../public/images/profile/profile-about.png"
-import Experience from "@/components/Experience"
-import Skills from "@/components/Skills"
-import Education from "@/components/Education"
 import TransitionEffect from "@/components/TransitionEffect"
 
 const audioPlaylist = () => {
