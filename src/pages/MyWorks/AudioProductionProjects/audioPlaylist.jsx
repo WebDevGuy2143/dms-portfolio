@@ -25,7 +25,7 @@ const audioPlaylist = () => {
             <h1 className="col-span-12 text-6xl font-bold text-center">
               My Audio Projects
             </h1>
-            <div className="col-span-12 sm:col-span-6 align-center">
+            <div className="col-span-12 sm:col-span-12 align-center">
               <script
                 src="https://static.elfsight.com/platform/platform.js"
                 async
