@@ -93,6 +93,14 @@ const myWorks = () => {
                 alt="Software Programming"
               />
             </div>
+            <div className="col-span-6 sm:col-span-12 xs:text-center">
+              <Project
+                title="Social Media Marketing"
+                img={project5}
+                link="/"
+                alt="Software Programming"
+              />
+            </div>
           </div>
         </Layout>
       </main>
