@@ -87,7 +87,7 @@ const myWorks = () => {
             </div>
             <div className="col-span-6 sm:col-span-12 xs:text-center">
               <Project
-                title="Software Programming"
+                title="Software Development"
                 img={project5}
                 link="/"
                 alt="Software Programming"
