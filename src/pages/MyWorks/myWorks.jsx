@@ -9,6 +9,7 @@ import project2 from "../../../public/images/graphicDesign.jpg"
 import project3 from "../../../public/images/videoProduction.jpg"
 import project4 from "../../../public/images/AudioProduction.jpg"
 import project5 from "../../../public/images/SoftwareDevPic.jpg"
+import project6 from "../../../public/images/SocialMediaMarketing.jpg"
 import TransitionEffect from "@/components/TransitionEffect"
 
 const Project = ({ title, img, link, alt }) => {
@@ -96,7 +97,7 @@ const myWorks = () => {
             <div className="col-span-6 sm:col-span-12 xs:text-center">
               <Project
                 title="Social Media Marketing"
-                img={project5}
+                img={project6}
                 link="/"
                 alt="Software Programming"
               />
