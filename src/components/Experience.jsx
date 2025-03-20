@@ -55,6 +55,16 @@ const Experience = () => {
             }
           />
           <Details
+            position={"Webmaster"}
+            company={"Spina-Bifida Association of Georgia"} 
+            companyLink={"#"}
+            time={"2011-2014"}
+            address={"Marietta, Ga"}
+            work={
+              "I was the Webmaster for the Spina-Bifida Association of Georgia. During my time here, I updated copy throughout, as well as update photos, graphics through pre-made template via WordPress."
+            }
+          />
+          <Details
             position={"Full-stack Web Developer"}
             company={"Muscle Nerdz"}
             companyLink={"#"}
