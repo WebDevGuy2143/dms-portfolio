@@ -5,11 +5,8 @@ import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import project1 from "../../../../public/images/project1.png"
-import project2 from "../../../../public/images/project2.png"
-import project3 from "../../../../public/images/project3.png"
-import project4 from "../../../../public/images/project4.png"
-import project5 from "../../../../public/images/project5.jpg"
+import project1 from "../../../public/images/SoftwareDevPic.jpg"
+
 import TransitionEffect from "@/components/TransitionEffect"
 
 const Tags = ({ text }) => {
@@ -182,7 +179,7 @@ const SoftwareDevProjects = () => {
             <div className="col-span-12 sm:col-span-12 md:gap-0">
               <FeaturedProject
                 title="Basic Hospital Management System"
-                img={project5}
+                img={project1}
                 tags={["python"]}
                 summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
                 link="/"
@@ -193,7 +190,7 @@ const SoftwareDevProjects = () => {
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
                 title="Grading System"
-                img={project2}
+                img={project1}
                 tags={["python"]}
                 summary="Trillo is dummy Hotel Booking Agency. This website was made by me as a part of the Advanced CSS course on Udemy, by Jonas Schmedtmann."
                 link="/"
@@ -204,7 +201,7 @@ const SoftwareDevProjects = () => {
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
                 title="Inventory System"
-                img={project3}
+                img={project1}
                 tags={["c++"]}
                 summary="This was a web application that I coded along with Jonas Schmedtmann. It is a JavaScript budget tracking app that uses plain JavaScript (ES6), HTML, and CSS3."
                 link="/"
@@ -215,7 +212,7 @@ const SoftwareDevProjects = () => {
             <div className="col-span-12 md:col-span-12 xs:gap-0">
               <FeaturedProject
                 title="Temprature Sensor"
-                img={project4}
+                img={project1}
                 tags={["python"]}
                 summary="This is a two player game. Each player gets to roll the dice, choose whether to roll again, or keep their score. The first person to score a hundred points wins the game."
                 link="/"
