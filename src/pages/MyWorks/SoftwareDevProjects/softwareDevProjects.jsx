@@ -214,9 +214,9 @@ const softwareDevProjects = () => {
             </div>
             <div className="col-span-12 md:col-span-12 xs:gap-0">
               <FeaturedProject
-                title="Chance (PIG Game) project"
+                title="Temprature Sensor"
                 img={project4}
-                tags={["HTML", "CSS", "JavaScript"]}
+                tags={["python"]}
                 summary="This is a two player game. Each player gets to roll the dice, choose whether to roll again, or keep their score. The first person to score a hundred points wins the game."
                 link="https://webdevguy2143.github.io/ChanceGame/"
                 github="https://github.com/WebDevGuy2143/ChanceGame"
@@ -225,9 +225,9 @@ const softwareDevProjects = () => {
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Natour's Project"
+                title="Sound Sensor"
                 img={project1}
-                tags={["HTML", "CSS", "JavaScript"]}
+                tags={["python"]}
                 summary="This is a project I did for the Advanced CSS Udemy course by Jonas Schmedtmann. I implemented all of the advance CSS techniques used in today's world."
                 link="https://webdevguy2143.github.io/Natours/"
                 github="https://github.com/WebDevGuy2143/Natours"
@@ -236,9 +236,9 @@ const softwareDevProjects = () => {
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Boilerplate Project"
+                title="Light Sensor (part 1)"
                 img={project1}
-                tags={["HTML", "CSS", "JavaScript", "PHP"]}
+                tags={["python"]}
                 summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
                 link="/"
                 github="/"
