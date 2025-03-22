@@ -181,9 +181,9 @@ const softwareDevProjects = () => {
           <div className="w-full grid grid-cols-12 center gap-24 xs:gap-0 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xs:mb-2">
             <div className="col-span-12 sm:col-span-12 md:gap-0">
               <FeaturedProject
-                title="Stephanie Pettis and RIO project"
+                title="Basic Hospital Management System"
                 img={project5}
-                tags={["wordpress", "HTML", "CSS", "JavaScript", "PHP"]}
+                tags={["C++"]}
                 summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
                 link="/"
                 github="/"
@@ -192,9 +192,9 @@ const softwareDevProjects = () => {
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Trillo project"
+                title="Grading System"
                 img={project2}
-                tags={["HTML", "CSS"]}
+                tags={["python"]}
                 summary="Trillo is dummy Hotel Booking Agency. This website was made by me as a part of the Advanced CSS course on Udemy, by Jonas Schmedtmann."
                 link="https://webdevguy2143.github.io/TrilloApp/"
                 github="https://github.com/WebDevGuy2143/TrilloApp"
@@ -203,9 +203,9 @@ const softwareDevProjects = () => {
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Budget Application Project"
+                title="Inventory System"
                 img={project3}
-                tags={["HTML", "CSS", "JavaScript"]}
+                tags={["C++"]}
                 summary="This was a web application that I coded along with Jonas Schmedtmann. It is a JavaScript budget tracking app that uses plain JavaScript (ES6), HTML, and CSS3."
                 link="https://webdevguy2143.github.io/BudgetApplication/"
                 github="https://github.com/WebDevGuy2143/BudgetApplication"
