@@ -249,7 +249,7 @@ const SoftwareDevProjects = () => {
               <Project
                 title="Light Sensor (part 2)"
                 img={project1}
-                tags={["HTML", "CSS", "JavaScript", "PHP"]}
+                tags={["python"]}
                 summary="This program is part 2 of a larger IoT project. It provides a user-friendly interface for retrieving and displaying data from ThingSpeak, a cloud-based IoT platform, specifically designed for Raspberry Pi devices. Developed by Gene Howell, it offers a structured approach to collecting and viewing sensor data through a menu-driven system."
                 link="/"
                 github="/"
