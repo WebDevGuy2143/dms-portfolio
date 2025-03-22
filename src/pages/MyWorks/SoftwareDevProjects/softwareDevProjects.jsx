@@ -12,7 +12,7 @@ import project4 from "../../../../public/images/project4.png"
 import project5 from "../../../../public/images/project5.jpg"
 import TransitionEffect from "@/components/TransitionEffect"
 
-const Tags = ({ text }) => {
+const Tags = ({ text = '' }) => {
   // Ensure text is an array
   const tags = Array.isArray(text) ? text : [text]
 
