@@ -22,10 +22,20 @@ const Tags = ({ text }) => {
 
     for (const tag of lowerCaseTags) {
       switch (tag) {
+        case "html":
+          return "bg-blue-600 text-light"
+        case "css":
+          return "bg-purple-600 text-light"
+        case "javascript":
+          return "bg-sky-600 text-light"
         case "python":
           return "bg-indigo-600 text-light"
+        case "php":
+          return "bg-purple-600 text-light"
         case "c++":
           return "bg-pink-600 text-light"
+        case "wordpress":
+          return "bg-indigo-600 text-light"
         default:
           return "bg-blue-100 text-blue-800"
       }
@@ -87,6 +97,13 @@ const FeaturedProject = ({ type, title, tags, summary, img, link, github }) => {
           >
             <GithubIcon />
           </Link>
+          <Link
+            href={link}
+            target="_blank"
+            className="hover:scale-110 transition-all ml-4 rounded-lg bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark  sm:px-4 sm:text-base "
+          >
+            View My Project
+          </Link>
         </div>
       </div>
     </article>
@@ -131,6 +148,13 @@ const Project = ({ title, summary, tags, type, img, link, github }) => {
         </p>
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
+            href={link}
+            target="_blank"
+            className=" text-lg font-semibold hover:underline underline-offset-2 hover:scale-110 transition-all dark:text-light"
+          >
+            View My Project
+          </Link>
+          <Link
             href={github}
             target="_blank"
             className="w-8 hover:scale-110 transition-all"
@@ -143,7 +167,7 @@ const Project = ({ title, summary, tags, type, img, link, github }) => {
   )
 }
 
-const softwareDevProjects = () => {
+const SoftwareDevProjects = () => {
   return (
     <>
       <Head>
@@ -167,70 +191,66 @@ const softwareDevProjects = () => {
           <div className="w-full grid grid-cols-12 center gap-24 xs:gap-0 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xs:mb-2">
             <div className="col-span-12 sm:col-span-12 md:gap-0">
               <FeaturedProject
-                title="Basic Hospital Management System"
+                title="Stephanie Pettis and RIO project"
                 img={project5}
-                tags={["C++"]}
+                tags={["wordpress", "HTML", "CSS", "JavaScript", "PHP"]}
                 summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
+                link="/"
                 github="/"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Grading System"
+                title="Trillo project"
                 img={project2}
-                tags={["python"]}
+                tags={["HTML", "CSS"]}
                 summary="Trillo is dummy Hotel Booking Agency. This website was made by me as a part of the Advanced CSS course on Udemy, by Jonas Schmedtmann."
+                link="https://webdevguy2143.github.io/TrilloApp/"
                 github="https://github.com/WebDevGuy2143/TrilloApp"
                 type="Project"
               />
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Inventory System"
+                title="Budget Application Project"
                 img={project3}
-                tags={["C++"]}
+                tags={["HTML", "CSS", "JavaScript"]}
                 summary="This was a web application that I coded along with Jonas Schmedtmann. It is a JavaScript budget tracking app that uses plain JavaScript (ES6), HTML, and CSS3."
+                link="https://webdevguy2143.github.io/BudgetApplication/"
                 github="https://github.com/WebDevGuy2143/BudgetApplication"
                 type="Project"
               />
             </div>
             <div className="col-span-12 md:col-span-12 xs:gap-0">
               <FeaturedProject
-                title="Temprature Sensor"
+                title="Chance (PIG Game) project"
                 img={project4}
-                tags={["python"]}
+                tags={["HTML", "CSS", "JavaScript"]}
                 summary="This is a two player game. Each player gets to roll the dice, choose whether to roll again, or keep their score. The first person to score a hundred points wins the game."
+                link="https://webdevguy2143.github.io/ChanceGame/"
                 github="https://github.com/WebDevGuy2143/ChanceGame"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Sound Sensor"
+                title="Natour's Project"
                 img={project1}
-                tags={["python"]}
+                tags={["HTML", "CSS", "JavaScript"]}
                 summary="This is a project I did for the Advanced CSS Udemy course by Jonas Schmedtmann. I implemented all of the advance CSS techniques used in today's world."
+                link="https://webdevguy2143.github.io/Natours/"
                 github="https://github.com/WebDevGuy2143/Natours"
                 type="Project"
               />
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Light Sensor (part 1)"
+                title="Boilerplate Project"
                 img={project1}
-                tags={["python"]}
-                summary="This program is part 1 of a larger IoT project implementing a complete IoT solution for monitoring and logging light sensor data using a Raspberry Pi, storing readings locally, and transmitting them to the cloud via ThingSpeak. The implementation combines local data persistence with remote monitoring capabilities, providing both immediate feedback and long-term data storage."
-                github="/"
-                type="Project"
-              />
-            </div>
-            <div className="col-span-6 md:col-span-12 xs:gap-0">
-              <Project
-                title="Light Sensor (part 2)"
-                img={project1}
-                tags={["python"]}
-                summary="This program is part 2 of a larger IoT project. It provides a user-friendly interface for retrieving and displaying data from ThingSpeak, a cloud-based IoT platform, specifically designed for Raspberry Pi devices. Developed by Gene Howell, it offers a structured approach to collecting and viewing sensor data through a menu-driven system."
+                tags={["HTML", "CSS", "JavaScript", "PHP"]}
+                summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
+                link="/"
                 github="/"
                 type="Project"
               />
@@ -242,4 +262,4 @@ const softwareDevProjects = () => {
   )
 }
 
-export default softwareDevProjects
+export default SoftwareDevProjects
