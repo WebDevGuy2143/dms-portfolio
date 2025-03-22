@@ -186,7 +186,7 @@ const SoftwareDevProjects = () => {
                 tags={["python"]}
                 summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
                 link="/"
-                github=""
+                github="/"
                 type="Featured Project"
               />
             </div>
@@ -197,7 +197,7 @@ const SoftwareDevProjects = () => {
                 tags={["python"]}
                 summary="Trillo is dummy Hotel Booking Agency. This website was made by me as a part of the Advanced CSS course on Udemy, by Jonas Schmedtmann."
                 link="/"
-                github=""
+                github="/"
                 type="Project"
               />
             </div>
@@ -208,7 +208,7 @@ const SoftwareDevProjects = () => {
                 tags={["c++"]}
                 summary="This was a web application that I coded along with Jonas Schmedtmann. It is a JavaScript budget tracking app that uses plain JavaScript (ES6), HTML, and CSS3."
                 link="/"
-                github=""
+                github="/"
                 type="Project"
               />
             </div>
@@ -219,7 +219,7 @@ const SoftwareDevProjects = () => {
                 tags={["python"]}
                 summary="This is a two player game. Each player gets to roll the dice, choose whether to roll again, or keep their score. The first person to score a hundred points wins the game."
                 link="/"
-                github=""
+                github="/"
                 type="Featured Project"
               />
             </div>
@@ -230,7 +230,7 @@ const SoftwareDevProjects = () => {
                 tags={["python"]}
                 summary="This is a project I did for the Advanced CSS Udemy course by Jonas Schmedtmann. I implemented all of the advance CSS techniques used in today's world."
                 link="/"
-                github=""
+                github="/"
                 type="Project"
               />
             </div>
@@ -241,7 +241,7 @@ const SoftwareDevProjects = () => {
                 tags={["python"]}
                 summary="This program is part 1 of a larger IoT project implementing a complete IoT solution for monitoring and logging light sensor data using a Raspberry Pi, storing readings locally, and transmitting them to the cloud via ThingSpeak. The implementation combines local data persistence with remote monitoring capabilities, providing both immediate feedback and long-term data storage."
                 link="/"
-                github=""
+                github="/"
                 type="Project"
               />
             </div>
@@ -252,7 +252,7 @@ const SoftwareDevProjects = () => {
                 tags={["python"]}
                 summary="This program is part 2 of a larger IoT project. It provides a user-friendly interface for retrieving and displaying data from ThingSpeak, a cloud-based IoT platform, specifically designed for Raspberry Pi devices. Developed by Gene Howell, it offers a structured approach to collecting and viewing sensor data through a menu-driven system."
                 link="/"
-                github=""
+                github="/"
                 type="Project"
               />
             </div>
