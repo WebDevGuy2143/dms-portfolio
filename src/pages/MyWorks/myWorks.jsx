@@ -90,7 +90,7 @@ const myWorks = () => {
               <Project
                 title="Software Development"
                 img={project5}
-                link="/"
+                link="/MyWorks/SoftwareDevProjects/softwareDevProjects"
                 alt="Software Programming"
               />
             </div>
