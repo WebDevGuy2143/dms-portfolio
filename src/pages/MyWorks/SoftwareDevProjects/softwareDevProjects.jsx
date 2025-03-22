@@ -245,6 +245,17 @@ const softwareDevProjects = () => {
                 type="Project"
               />
             </div>
+            <div className="col-span-6 md:col-span-12 xs:gap-0">
+              <Project
+                title="Light Sensor (part 2)"
+                img={project1}
+                tags={["python"]}
+                summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
+                link="/"
+                github="/"
+                type="Project"
+              />
+            </div>
           </div>
         </Layout>
       </main>
