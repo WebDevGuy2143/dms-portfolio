@@ -12,7 +12,7 @@ import project4 from "../../../../public/images/project4.png"
 import project5 from "../../../../public/images/project5.jpg"
 import TransitionEffect from "@/components/TransitionEffect"
 
-const Tags = ({ text = '' }) => {
+const Tags = ({ text }) => {
   // Ensure text is an array
   const tags = Array.isArray(text) ? text : [text]
 
@@ -51,7 +51,7 @@ const Tags = ({ text = '' }) => {
   )
 }
 
-const FeaturedProject = ({ type, title, tags, summary, img, github }) => {
+const FeaturedProject = ({ type, title, tags, summary, img, link, github }) => {
   return (
     <article className="relative flex w-full items-center justify-between rounded-3xl rounded-br-2xl border border-solid border-dark bg-light p-12 shadow-2xl dark:border-light dark:bg-dark lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4 ">
       <div className="absolute top-0 -right-3 -z-10 h-[103%] w-[101%] rounded-[2.5rem] rounded-br-3xl bg-dark dark:bg-light  xs:-right-2 xs:h-[102%] xs:w-[100%] xs:rounded-[1.5rem]" />
@@ -110,7 +110,7 @@ const FeaturedProject = ({ type, title, tags, summary, img, github }) => {
   )
 }
 
-const Project = ({ title, summary, tags, type, img, github }) => {
+const Project = ({ title, summary, tags, type, img, link, github }) => {
   return (
     <article className="w-full flex-col flex items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative  dark:bg-dark dark:border-light">
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[102%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light" />
