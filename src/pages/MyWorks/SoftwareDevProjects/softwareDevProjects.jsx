@@ -6,7 +6,6 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
-// convert the path using the @ notation
 import project1 from "@/public/images/SoftwareDevPic.jpg"
 
 import TransitionEffect from "@/components/TransitionEffect"
