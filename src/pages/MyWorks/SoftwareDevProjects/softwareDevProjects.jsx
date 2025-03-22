@@ -186,7 +186,7 @@ const SoftwareDevProjects = () => {
                 tags={["python"]}
                 summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
                 link="/"
-                github="/"
+                github=""
                 type="Featured Project"
               />
             </div>
