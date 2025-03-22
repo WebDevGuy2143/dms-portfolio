@@ -239,7 +239,7 @@ const softwareDevProjects = () => {
                 title="Light Sensor (part 1)"
                 img={project1}
                 tags={["python"]}
-                summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
+                summary="This program is part 1 of a larger IoT project implementing a complete IoT solution for monitoring and logging light sensor data using a Raspberry Pi, storing readings locally, and transmitting them to the cloud via ThingSpeak. The implementation combines local data persistence with remote monitoring capabilities, providing both immediate feedback and long-term data storage."
                 link="/"
                 github="/"
                 type="Project"
@@ -250,7 +250,7 @@ const softwareDevProjects = () => {
                 title="Light Sensor (part 2)"
                 img={project1}
                 tags={["python"]}
-                summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
+                summary="This program is part 2 of a larger IoT project. It provides a user-friendly interface for retrieving and displaying data from ThingSpeak, a cloud-based IoT platform, specifically designed for Raspberry Pi devices. Developed by Gene Howell, it offers a structured approach to collecting and viewing sensor data through a menu-driven system."
                 link="/"
                 github="/"
                 type="Project"
