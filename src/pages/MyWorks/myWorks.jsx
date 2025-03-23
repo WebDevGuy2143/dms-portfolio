@@ -74,7 +74,7 @@ const myWorks = () => {
               <Project
                 title="Video Production"
                 img={project3}
-                link="/"
+                link="/MyWorks/VideoProduction/videoProdProjects"
                 alt="Video Production Projects"
               />
             </div>
@@ -98,7 +98,7 @@ const myWorks = () => {
               <Project
                 title="Social Media Marketing"
                 img={project6}
-                link="/"
+                link="/MyWorks/SocialMediaMarketing/socialMediaProjects"
                 alt="Software Programming"
               />
             </div>
