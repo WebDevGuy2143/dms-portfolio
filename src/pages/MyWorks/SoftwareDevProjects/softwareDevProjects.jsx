@@ -244,7 +244,7 @@ const SoftwareDevProjects = () => {
               />
             </div>
             <div className="col-span-12 sm:col-span-12 md:gap-0">
-              <Project
+            <FeaturedProject
                 title="Light Sensor (part 2)"
                 img={project1}
                 tags={["python"]}
