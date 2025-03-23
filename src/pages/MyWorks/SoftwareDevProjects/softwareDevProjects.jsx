@@ -243,7 +243,7 @@ const SoftwareDevProjects = () => {
                 type="Project"
               />
             </div>
-            <div className="col-span-6 md:col-span-12 xs:gap-0">
+            <div className="col-span-12 sm:col-span-12 md:gap-0">
               <Project
                 title="Light Sensor (part 2)"
                 img={project1}
