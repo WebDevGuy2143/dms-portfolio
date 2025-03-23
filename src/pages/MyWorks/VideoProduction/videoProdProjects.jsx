@@ -6,7 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
-import project1 from "../../../public/images/videoProduction.jpg"
+import project1 from "../../../../public/images/videoProduction.jpg"
 
 import TransitionEffect from "@/components/TransitionEffect"
 
