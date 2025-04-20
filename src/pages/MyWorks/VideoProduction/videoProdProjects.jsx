@@ -185,8 +185,8 @@ const VideoProjects = () => {
                 img={theVanished}
                 tags={["iPhone"]}
                 summary="Inspired by the HBO tv show, 'The Leftovers,' this haunting non-verbal narrative explores a world where humanity vanishes, leaving one lone figure (me) behind. Shot through my phone's camera - from intimate close-ups to expansive wide shots - this visual storytelling experiment dives into isolation and existence."
-                link="/"
-                github="https://www.youtube.com/watch?v=qXO_9Ero1xk"
+                link="https://www.youtube.com/watch?v=qXO_9Ero1xk"
+                github="/"
                 type="Project"
               />
             </div>
