@@ -21,7 +21,7 @@ const Tags = ({ text }) => {
 
     for (const tag of lowerCaseTags) {
       switch (tag) {
-        case "python":
+        case "iphone":
           return "bg-indigo-600 text-light"
         case "c++":
           return "bg-pink-600 text-light"
