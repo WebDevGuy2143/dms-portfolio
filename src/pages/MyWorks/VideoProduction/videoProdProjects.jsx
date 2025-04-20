@@ -179,10 +179,10 @@ const VideoProjects = () => {
           <div className="w-full grid grid-cols-12 center gap-24 xs:gap-0 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xs:mb-2">
             <div className="col-span-12 sm:col-span-12 md:gap-0">
               <FeaturedProject
-                title="Basic Hospital Management System"
+                title="The Vanished"
                 img={project1}
-                tags={["python"]}
-                summary="Web dev project boilerplate descriptions highlight key technologies like front-end frameworks (e.g., React), back-end tools (Node.js, Django), version control (Git), package managers (npm, yarn), styling preprocessors (Sass, Less), and deployment platforms (Heroku, AWS). Essentially, it sets the groundwork for project success."
+                tags={["iPhone"]}
+                summary="Inspired by the HBO tv show, 'The Leftovers,' this haunting non-verbal narrative explores a world where humanity vanishes, leaving one lone figure (me) behind. Shot through my phone's camera - from intimate close-ups to expansive wide shots - this visual storytelling experiment dives into isolation and existence."
                 link="/"
                 github="/"
                 type="Featured Project"
@@ -190,16 +190,16 @@ const VideoProjects = () => {
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
-                title="Grading System"
+                title="My Morning Routine"
                 img={project1}
-                tags={["python"]}
-                summary="Trillo is dummy Hotel Booking Agency. This website was made by me as a part of the Advanced CSS course on Udemy, by Jonas Schmedtmann."
+                tags={["iPhone"]}
+                summary="This video showcases my college project demonstrating how to incorporate various camera shots from a storyboard concept to create a cohesive story. I experimented with a range of extreme close-up shots to wide-angle shots to bring the narrative to life visually."
                 link="/"
                 github="/"
                 type="Project"
               />
             </div>
-            <div className="col-span-6 md:col-span-12 xs:gap-0">
+            {/* <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
                 title="Inventory System"
                 img={project1}
@@ -253,7 +253,7 @@ const VideoProjects = () => {
                 github="/"
                 type="Project"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
