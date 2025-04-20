@@ -6,7 +6,8 @@ import Image from "next/image"
 import Link from "next/link"
 import React from "react"
 
-import project1 from "../../../../public/images/videoProduction.jpg"
+import theVanished from "../../../../public/images/TheVanished.png"
+import MorningRoutine from "../../../../public/images/MorningRoutine.png"
 
 import TransitionEffect from "@/components/TransitionEffect"
 
@@ -181,7 +182,7 @@ const VideoProjects = () => {
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
                 title="The Vanished"
-                img={project1}
+                img={theVanished}
                 tags={["iPhone"]}
                 summary="Inspired by the HBO tv show, 'The Leftovers,' this haunting non-verbal narrative explores a world where humanity vanishes, leaving one lone figure (me) behind. Shot through my phone's camera - from intimate close-ups to expansive wide shots - this visual storytelling experiment dives into isolation and existence."
                 link="/"
@@ -192,7 +193,7 @@ const VideoProjects = () => {
             <div className="col-span-6 md:col-span-12 xs:gap-0">
               <Project
                 title="My Morning Routine"
-                img={project1}
+                img={MorningRoutine}
                 tags={["iPhone"]}
                 summary="This video showcases my college project demonstrating how to incorporate various camera shots from a storyboard concept to create a cohesive story. I experimented with a range of extreme close-up shots to wide-angle shots to bring the narrative to life visually."
                 link="/"
