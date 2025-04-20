@@ -186,7 +186,7 @@ const VideoProjects = () => {
                 tags={["iPhone"]}
                 summary="Inspired by the HBO tv show, 'The Leftovers,' this haunting non-verbal narrative explores a world where humanity vanishes, leaving one lone figure (me) behind. Shot through my phone's camera - from intimate close-ups to expansive wide shots - this visual storytelling experiment dives into isolation and existence."
                 link="/"
-                github="/"
+                github="https://www.youtube.com/watch?v=qXO_9Ero1xk"
                 type="Project"
               />
             </div>
@@ -196,7 +196,7 @@ const VideoProjects = () => {
                 img={MorningRoutine}
                 tags={["iPhone"]}
                 summary="This video showcases my college project demonstrating how to incorporate various camera shots from a storyboard concept to create a cohesive story. I experimented with a range of extreme close-up shots to wide-angle shots to bring the narrative to life visually."
-                link="/"
+                link="https://www.youtube.com/watch?v=ZAh-w7rnkuk"
                 github="/"
                 type="Project"
               />
