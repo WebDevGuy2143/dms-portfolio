@@ -185,7 +185,7 @@ const VideoProjects = () => {
                 summary="Inspired by the HBO tv show, 'The Leftovers,' this haunting non-verbal narrative explores a world where humanity vanishes, leaving one lone figure (me) behind. Shot through my phone's camera - from intimate close-ups to expansive wide shots - this visual storytelling experiment dives into isolation and existence."
                 link="/"
                 github="/"
-                type="Featured Project"
+                type="Project"
               />
             </div>
             <div className="col-span-6 md:col-span-12 xs:gap-0">
