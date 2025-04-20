@@ -177,7 +177,7 @@ const VideoProjects = () => {
           />
 
           <div className="w-full grid grid-cols-12 center gap-24 xs:gap-0 gap-y-32 xl:gap-x-16 lg:w-full lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xs:mb-2">
-            <div className="col-span-6 sm:col-span-12 md:gap-0">
+            <div className="col-span-6 md:col-span-12 md:gap-0">
               <FeaturedProject
                 title="The Vanished"
                 img={project1}
