@@ -48,7 +48,7 @@ const myWorks = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText
-            text='"The worst enemy to creativity is self-doubt.” – Sylvia Plath'
+            text='&ldquo;The worst enemy to creativity is self-doubt.&rdquo; – Sylvia Plath'
             className="mb-16 !text-6xl !text-center xl:!text-5xl lg:!text-center lg:!text-6xl md:mb-6 md:!text-5xl sm:!text-3xl xs:!text-xl xs:mb-4"
           />
 
